@@ -25,6 +25,7 @@ $config = array (
 	'language.default'	  => 'en',
 	
 	'auth' => 'default-sp',
+	'entityid' => 'http://foodle.feide.no',
 	
 	// This user IDs will see a list of all foodles on the front page.
 	'adminUsers' => array('andreas@rnd.feide.no', 'andreas@uninett.no'),
