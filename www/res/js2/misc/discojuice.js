@@ -56,7 +56,7 @@ define(function(require) {
 
 						case 'saml':
 						default:
-							window.location = dj.baseURL + '/simplesaml/module.php/core/as_login.php?AuthId=saml&ReturnTo=' + escape(returnto) + '&saml:idp=' + escape(e.entityID);
+							window.location = dj.baseURL + '/simplesaml/module.php/core/as_login.php?AuthId=default-sp&ReturnTo=' + escape(returnto) + '&saml:idp=' + escape(e.entityID);
 						break;							
 
 					}
