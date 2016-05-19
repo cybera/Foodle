@@ -359,7 +359,7 @@ class FoodleAuth {
 		));
 
 		self::checkAttribute($result, 'Name of user', $this->getUsername($attributes), 'error', array(
-			array('pattern' => '\s', 'pri' => 'warning', 'text' => 'Name shuold not be a single word. Both firstname and lastname should be included.')
+			array('pattern' => '\s', 'pri' => 'warning', 'text' => 'Name should not be a single word. Both firstname and lastname should be included.')
 		));
 		
 		self::checkAttribute($result, 'User realm', $this->getRealm($attributes), 'error', array(
